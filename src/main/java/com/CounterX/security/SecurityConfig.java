@@ -43,7 +43,10 @@ public class SecurityConfig {
                         .requestMatchers(
                                 "/swagger-ui/**",
                                 "/v3/api-docs/**",
-                                "/api/payments/**"
+                                "/api/payments/**",
+                                "https://counterx-frontend.vercel.app/**",
+                                "https://counterx-frontend-5z0z1rtn9-counterx-team.vercel.app/**"
+
                         ).permitAll()
 
                         // Login & Register
