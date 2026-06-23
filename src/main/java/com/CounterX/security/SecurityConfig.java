@@ -45,7 +45,8 @@ public class SecurityConfig {
                                 "/v3/api-docs/**",
                                 "/api/payments/**",
                                 "https://counterx-frontend.vercel.app/**",
-                                "https://counterx-frontend-5z0z1rtn9-counterx-team.vercel.app/**"
+                                "https://counterx-frontend-5z0z1rtn9-counterx-team.vercel.app/**",
+                                "https://dancing-pavlova-391ee3.netlify.app/**"
 
                         ).permitAll()
 
